@@ -1,5 +1,161 @@
 /* Ahmad */
 
+/* Ahmad */
+.header{
+  width: 100%;
+}
+.header-overlay {
+
+  margin: auto;
+  width: 100%;
+/* background-color: #000; */
+background-image: url("./well.jpg");
+background-repeat: no-repeat;
+
+background-position:center;
+height: 500px;}
+
+.header-overlay p,h1,h2{
+    text-align: center;
+    color: white;
+
+}
+.header-overlay h1{
+  font-size: 3em;
+}
+.header-overlay h2{
+  font-size: 2em;
+}
+.header-overlay p{
+  font-size: 1em;
+}
+.header-overlay p{
+  line-height: 30px;
+  margin:auto 10px;
+}
+.headline{
+padding-top: 12%;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .header-overlay {
+  height: 300px;}
+} */
+
+.logo {
+  width:40%;
+  color: black;
+
+  display: inline-block;
+    vertical-align: middle;
+}
+
+
+.nav{
+  display: inline-block;
+    width:58%;
+    vertical-align: middle;
+margin-right: 1%;
+}
+.nav ul{
+  float: right;
+
+}
+.logo h1{
+  padding-left: 4%;
+  color: #000;
+  text-align: left;
+}
+div .nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+div .nav ul li {
+    float: left;
+}
+.nav ul li a{
+    display: block;
+    width: 60px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.logo a{
+
+    color: #fff;
+
+}
+
+@media (max-width: 650px) {
+
+
+  .nav{
+    display: inline-block;
+      width:95%;
+  margin: auto;
+  }
+
+  div .nav ul {
+      float: left;
+      padding: 2%;
+  }
+
+  .nav ul li a{
+      width: 60px;
+      padding: 7px 8px;
+
+  }
+  .logo {
+    width:100%;
+/* margin-left: 35%; */
+  }
+  .logo h1{
+    text-align: center;
+  }
+  .header-overlay h1{
+    font-size: 2em;
+  }
+  .header-overlay h2{
+    font-size: 1.2em;
+  }
+  .header-overlay {
+  height: 300px;}
+
+}
+#footer{
+  background-color: #000;
+  height: 20%;
+width: auto;
+
+}
+
+.footer{
+margin-top: 15px;
+  padding-top: 5px;
+  margin-left: 30px;
+
+}
+
+
+
+
+/* Farah */
+
+
+
+
+/* Marwa */
+
+
+
+
+/* Eman */
 
 
 
