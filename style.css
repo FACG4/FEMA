@@ -7,11 +7,6 @@
   font-size: 35px;
   color: black;
   letter-spacing: 1px;
-  color:
-  border-radius: 2px;
-  /* border: 1px solid #BBDEFB;
-  background-color: #ECEFF1; */
-  background-position: center;
    font-family: cursive;
 }
 
@@ -170,15 +165,20 @@ h4{
 /* Farah */
 .service-image{
   width: 90%;
-  height: 90%;
-
+  height: 150px;
 }
+
+.img-para {
+  margin: 30px;
+}
+
 .images {
   text-align: center;
 }
 
 #service-header {
   text-align: center;
+
 }
 .unordered{
   list-style: none;
@@ -186,16 +186,21 @@ h4{
   width: 24%;
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 
   .unordered{
     width: 46%;
-    background-color: green;
   }
-  div #work{
-    margin-bottom: 40%;
-  }
+
 }
+@media only screen and (max-width: 600px) {
+
+  .unordered{
+    width: 80%;
+  }
+
+}
+
 
 /* Marwa */
 
@@ -212,7 +217,7 @@ width: 99%;
   margin: 7px;
   padding: 5px;
   display: inline-block;
-  border:2px solid #E91E63;
+
   border-radius:10px;
   width: 22%;
   text-align: left;
@@ -224,7 +229,7 @@ width: 99%;
 }
 .one a:hover{
   text-decoration:underline;
-  
+
 }
 .one img {
   border-radius: 90%;
@@ -318,6 +323,7 @@ border-radius: 4px;
 border-radius: 4px;
 background-color: #536DFE;
 font-size: 25px;
+color:white;
 
 }
 @media only screen and (max-width: 1000px) {
