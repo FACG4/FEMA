@@ -260,9 +260,20 @@ height: 40px;
 
 
 }
+.contact__h{
+  font-size: 30px;
+  color: black;
+}
+
+
 .input--Display{
   display:block;
   padding-top: 15px;
+
+}
+.a{
+font-size: 24px;
+padding-bottom: 10px;
 }
 
 .input__text{
@@ -276,9 +287,12 @@ border-radius: 4px;
   width: 120px;
   border: 1px solid #ccc;
 border-radius: 4px;
+background-color: #536DFE;
+font-size: 25px;
+
 }
 @media only screen and (max-width: 1000px) {
-.contact .inputs {
+.contact .inputs,.input__text {
     width: 100%;
 }
 }
