@@ -1,4 +1,18 @@
+
+
+
 /* Ahmad */
+/* this style to change header in all section */
+.style__h{
+  font-size: 35px;
+  color: black;
+  letter-spacing: 3px;
+
+}
+
+
+
+/*end */
 .header{
   width: 100%;
 }
@@ -127,16 +141,22 @@ div .nav ul li {
 
 }
 #footer{
-  background-color: #000;
-  height: 20%;
+  background-color:#0D47A1;
+
 width: auto;
 
 }
 
 .footer{
-margin-top: 15px;
-  padding-top: 5px;
-  margin-left: 30px;
+text-align: center;
+padding-top: 3px;
+padding-bottom: 3px;
+ color:black;
+ font-size:20px;
+
+}
+h4{
+  font-weight: normal;
 
 }
 
@@ -150,9 +170,7 @@ margin-top: 15px;
 .images {
   text-align: center;
 }
-.service {
-  background-color: red;
-}
+
 #service-header {
   text-align: center;
 }
@@ -186,7 +204,7 @@ margin-top: 15px;
 .one{
   margin:20px;
   padding:10px;
-  border:2px solid #E91E63;
+  border:1px solid #0D47A1;
   border-radius:10px;
   width: 30%;
   text-align: left;
@@ -195,7 +213,7 @@ margin-top: 15px;
 
 .one img {
   border-radius: 90%;
-  border: 5px solid #AD1457;
+  border: 1px solid #0D47A1;
   width:200px;
   height:200px;
   display: block;
@@ -207,7 +225,7 @@ margin-top: 15px;
 .team{
   color:black;
   text-align: center;
-  text-shadow:2px 2px #E91E63;
+  text-shadow:2px 2px #0D47A1;
   font-size: 50px;
 }
 .one span{
@@ -245,10 +263,7 @@ height: 40px;
 
 
 }
-.contact__h{
-  font-size: 30px;
-  color: black;
-}
+
 
 
 .input--Display{
