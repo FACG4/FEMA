@@ -9,8 +9,7 @@
   letter-spacing: 1px;
   color:
   border-radius: 2px;
-  border: 1px solid #BBDEFB;
-  background-color: #ECEFF1;
+
   background-position: center;
    font-family: cursive;
 }
@@ -157,7 +156,7 @@ width: auto;
 text-align: center;
 padding-top: 3px;
 padding-bottom: 3px;
- color:black;
+ color:white;
  font-size:20px;
 
 }
@@ -183,7 +182,7 @@ h4{
 
 #service-header {
   text-align: center;
-  background-color: black;
+
 }
 .unordered{
   list-style: none;
@@ -222,7 +221,7 @@ width: 99%;
   margin: 7px;
   padding: 5px;
   display: inline-block;
-  border:2px solid #E91E63;
+
   border-radius:10px;
   width: 22%;
   text-align: left;
@@ -321,6 +320,7 @@ border-radius: 4px;
 border-radius: 4px;
 background-color: #536DFE;
 font-size: 25px;
+color:white;
 
 }
 @media only screen and (max-width: 1000px) {
