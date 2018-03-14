@@ -1,6 +1,4 @@
 /* Ahmad */
-
-/* Ahmad */
 .header{
   width: 100%;
 }
@@ -149,7 +147,7 @@ margin-top: 15px;
   height: 90%;
 
 }
-.images {
+.serv-images {
   text-align: center;
 }
 .service {
@@ -170,7 +168,7 @@ margin-top: 15px;
     width: 46%;
     background-color: green;
   }
-
+}
 
 /* Marwa */
 .box{
@@ -219,22 +217,6 @@ margin-top: 15px;
 .ul{
   list-style: square inside url("sqpurple.gif");
 }
-
-
-
-
-/* Eman */
-
-
-
-/* Farah */
-
-
-
-
-
-/* Marwa */
-
 
 
 
