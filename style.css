@@ -41,6 +41,7 @@ padding-top: 12%;
 } */
 
 .logo {
+
   width:40%;
   color: black;
 
@@ -48,8 +49,8 @@ padding-top: 12%;
     vertical-align: middle;
 }
 
-
 .nav{
+    /* position: fixed; */
   display: inline-block;
     width:58%;
     vertical-align: middle;
@@ -174,21 +175,23 @@ margin-top: 15px;
 }
 
 /* Marwa */
-.box{
 
-  display:flex;
-  flex-direction: row;
-  margin: 20px 10px 20px 10px;
-  padding:10px;
+
+.box{
+width: 99%;
+  margin: auto;
+    padding:auto;
+    padding-left: 10px;
   background-color:#FFEBEE;
 
 }
 .one{
-  margin:20px;
-  padding:10px;
+  margin: 7px;
+  padding: 5px;
+  display: inline-block;
   border:2px solid #E91E63;
   border-radius:10px;
-  width: 30%;
+  width: 22%;
   text-align: left;
 }
 
@@ -223,6 +226,18 @@ margin-top: 15px;
 
 
 
+@media only screen and (max-width: 1000px)  {
+.team h1{
+  margin-top: 9000px;
+}
+.box{
+  width: 100%;
+  margin:auto;
+}
+  .one{
+      width:45%;
+  }
+}
 
 
 
