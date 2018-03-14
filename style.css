@@ -143,11 +143,33 @@ margin-top: 15px;
 }
 
 
-
-
 /* Farah */
+.service-image{
+  width: 90%;
+  height: 90%;
 
+}
+.images {
+  text-align: center;
+}
+.service {
+  background-color: red;
+}
+#service-header {
+  text-align: center;
+}
+.unordered{
+  list-style: none;
+  float:left;
+  width: 24%;
 
+}
+@media only screen and (max-width: 600px) {
+
+  .unordered{
+    width: 46%;
+    background-color: green;
+  }
 
 
 /* Marwa */
@@ -206,6 +228,7 @@ margin-top: 15px;
 
 
 /* Farah */
+
 
 
 
