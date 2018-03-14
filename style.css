@@ -9,8 +9,8 @@
   letter-spacing: 1px;
   color:
   border-radius: 2px;
-  border: 1px solid #BBDEFB;
-  background-color: #ECEFF1;
+  /* border: 1px solid #BBDEFB;
+  background-color: #ECEFF1; */
   background-position: center;
    font-family: cursive;
 }
@@ -157,7 +157,7 @@ width: auto;
 text-align: center;
 padding-top: 3px;
 padding-bottom: 3px;
- color:black;
+ color:white;
  font-size:20px;
 
 }
@@ -218,7 +218,14 @@ width: 99%;
   text-align: left;
 }
 
-
+.one a{
+  text-decoration: none;
+  color:black;
+}
+.one a:hover{
+  text-decoration:underline;
+  
+}
 .one img {
   border-radius: 90%;
   border: 1px solid #0D47A1;
