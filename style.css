@@ -7,10 +7,6 @@
   font-size: 35px;
   color: black;
   letter-spacing: 1px;
-  color:
-  border-radius: 2px;
-
-  background-position: center;
    font-family: cursive;
 }
 
@@ -227,7 +223,14 @@ width: 99%;
   text-align: left;
 }
 
+.one a{
+  text-decoration: none;
+  color:black;
+}
+.one a:hover{
+  text-decoration:underline;
 
+}
 .one img {
   border-radius: 90%;
   border: 1px solid #0D47A1;
