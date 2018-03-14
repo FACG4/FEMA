@@ -204,16 +204,10 @@ width: 99%;
 
 }
 .one{
-<<<<<<< HEAD
-  margin:20px;
-  padding:10px;
-  border:1px solid #0D47A1;
-=======
   margin: 7px;
   padding: 5px;
   display: inline-block;
   border:2px solid #E91E63;
->>>>>>> 931536b665a680fb891c6b834c30349966538459
   border-radius:10px;
   width: 22%;
   text-align: left;
