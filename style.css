@@ -168,7 +168,10 @@ margin-top: 15px;
     width: 46%;
     background-color: green;
   }
-
+  div #work{
+    margin-bottom: 40%;
+  }
+}
 
 /* Marwa */
 .box{
@@ -221,19 +224,6 @@ margin-top: 15px;
 
 
 
-/* Eman */
-
-
-
-/* Farah */
-
-
-
-
-
-/* Marwa */
-
-
 
 
 /* Eman */
@@ -255,8 +245,6 @@ height: 40px;
 
 
 }
-
-
 .input--Display{
   display:block;
   padding-top: 15px;
