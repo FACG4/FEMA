@@ -151,6 +151,52 @@ margin-top: 15px;
 
 
 /* Marwa */
+.box{
+
+  display:flex;
+  flex-direction: row;
+  margin: 20px 10px 20px 10px;
+  padding:10px;
+  background-color:#FFEBEE;
+
+}
+.one{
+  margin:20px;
+  padding:10px;
+  border:2px solid #E91E63;
+  border-radius:10px;
+  width: 30%;
+  text-align: left;
+}
+
+
+.one img {
+  border-radius: 90%;
+  border: 5px solid #AD1457;
+  width:200px;
+  height:200px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.team{
+  color:black;
+  text-align: center;
+  text-shadow:2px 2px #E91E63;
+  font-size: 50px;
+}
+.one span{
+  font-size:20px;
+  font-style: italic;
+  font-weight: bold;
+  color:#E91E63;
+  font-family: cursive;
+}
+.ul{
+  list-style: square inside url("sqpurple.gif");
+}
 
 
 
