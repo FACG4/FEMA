@@ -145,17 +145,20 @@ margin-top: 15px;
 /* Farah */
 .service-image{
   width: 90%;
-  height: 90%;
-
+  height: 150px;
 }
+
+.img-para {
+  margin: 30px;
+}
+
 .images {
   text-align: center;
 }
-.service {
-  background-color: red;
-}
+
 #service-header {
   text-align: center;
+  background-color: black;
 }
 .unordered{
   list-style: none;
@@ -163,16 +166,21 @@ margin-top: 15px;
   width: 24%;
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 
   .unordered{
     width: 46%;
-    background-color: green;
   }
-  div #work{
-    margin-bottom: 40%;
-  }
+
 }
+@media only screen and (max-width: 600px) {
+
+  .unordered{
+    width: 80%;
+  }
+
+}
+
 
 /* Marwa */
 
