@@ -9,8 +9,8 @@
   letter-spacing: 1px;
   color:
   border-radius: 2px;
-  border: 1px solid #BBDEFB;
-  background-color: #ECEFF1;
+  /* border: 1px solid #BBDEFB;
+  background-color: #ECEFF1; */
   background-position: center;
    font-family: cursive;
 }
@@ -147,7 +147,7 @@ div .nav ul li {
 
 }
 #footer{
-  background-color:#;
+  background-color:#004080;
 
 width: auto;
 
@@ -183,7 +183,7 @@ h4{
 
 #service-header {
   text-align: center;
-  background-color: black;
+
 }
 .unordered{
   list-style: none;
@@ -215,20 +215,30 @@ width: 99%;
   margin: auto;
     padding:auto;
     padding-left: 10px;
-  background-color:#FFEBEE;
+  /* background-color:#FFEBEE; */
+  background-color: #e5ebf2;
 
 }
 .one{
   margin: 7px;
   padding: 5px;
   display: inline-block;
-  border:2px solid #E91E63;
+  /* border:2px solid #E91E63; */
   border-radius:10px;
   width: 22%;
   text-align: left;
 }
 
+.one a{
+  color:black;
+  text-decoration: none;
 
+}
+.one a:hover{
+  color:black;
+  text-decoration:underline;
+
+}
 .one img {
   border-radius: 90%;
   border: 1px solid #0D47A1;
@@ -319,8 +329,9 @@ border-radius: 4px;
   width: 120px;
   border: 1px solid #ccc;
 border-radius: 4px;
-background-color: #536DFE;
+background-color: #004080;
 font-size: 25px;
+color:white !important;
 
 }
 @media only screen and (max-width: 1000px) {
