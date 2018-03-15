@@ -17,7 +17,7 @@
 
   margin: auto;
   width: 100%;
-background-image: url("/style/images/well.jpg");
+background-image: url("style/images/well.jpg");
 background-repeat: no-repeat;
 background-position:center;
 height: 500px;}
