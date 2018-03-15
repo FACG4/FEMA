@@ -50,6 +50,7 @@ Accessibility: Input form labels.
 
 * GitHub Issues.
     * Comments
+    * Pull and Push
 * Fixed navbar with pure CSS.
 * Small Details.
 * Responsive design:
