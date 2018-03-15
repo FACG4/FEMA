@@ -234,6 +234,9 @@ width: 99%;
   text-shadow:2px 2px #0D47A1;
   font-size: 50px;
 }
+ ul li{
+  list-style: none;
+}
 .one span{
   font-size:20px;
   font-style: italic;
@@ -244,8 +247,6 @@ width: 99%;
 .ul{
   list-style: square inside url("sqpurple.gif");
 }
-
-
 
 @media only screen and (max-width: 1000px)  {
 .team h1{
