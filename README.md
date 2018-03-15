@@ -32,21 +32,26 @@ Responsive design: Corresponds to a width of **1000px**, and **500px**.
 
 ### _Team Profile_:
 
-Divisions encompassing all of the information about each team member.
-Responsive design: Corresponds to a width of **1000px**.
+Four divisions inside a container division. Divisions covers all of the information about each team member.
+
 Contains links to each members' Github and codewars.
+
+Responsive design: Corresponds to a width of **1000px**. (class .one).
+
 
 ### _Contact Form_:
 Consists of 3 input forms and a submit button.
 Responsive design: corresponds to **1000px*** width.
 Accessibility: Input form labels.
 
-### _Learning the Hard Way_:
+### _What we have learned_:
 
 #### Issues and Challenges:
 
-* GitHub
-* fixed image size vs percentage.
-* Farah and attention to details.
-* Quality Assurance (Ahmad).
-* Responsive design
+* GitHub Issues.
+    * Comments
+* Fixed navbar with pure CSS.
+* Small Details.
+* Responsive design:
+    * What we got right.
+    * Unresolved Issues.
