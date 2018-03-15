@@ -1,21 +1,10 @@
 
-
-
 /* Ahmad */
 /* this style to change header in all section */
 .style__h{
   font-size: 35px;
   color: black;
   letter-spacing: 1px;
-<<<<<<< HEAD
-  color:
-  border-radius: 2px;
-  /* border: 1px solid #BBDEFB;
-  background-color: #ECEFF1; */
-  background-position: center;
-=======
->>>>>>> 4fa2ca7e58399d777a7640a83ed7c0c08eace873
-   font-family: cursive;
 }
 
 
@@ -28,10 +17,8 @@
 
   margin: auto;
   width: 100%;
-/* background-color: #000; */
-background-image: url("./well.jpg");
+background-image: url("/style/images/well.jpg");
 background-repeat: no-repeat;
-
 background-position:center;
 height: 500px;}
 
@@ -48,25 +35,20 @@ height: 500px;}
 }
 .header-overlay p{
   font-size: 1em;
-}
-.header-overlay p{
   line-height: 30px;
   margin:auto 10px;
 }
+/* .header-overlay p{
+
+} */
 .headline{
 padding-top: 12%;
 }
 
-/* @media only screen and (max-width: 600px) {
-  .header-overlay {
-  height: 300px;}
-} */
-
 .logo {
 
-  width:40%;
+  width:30%;
   color: black;
-
   display: inline-block;
     vertical-align: middle;
 }
@@ -74,13 +56,21 @@ padding-top: 12%;
 .nav{
     /* position: fixed; */
   display: inline-block;
-    width:58%;
+    width:60%;
     vertical-align: middle;
 margin-right: 1%;
+
 }
+.navvv{
+overflow: hidden;
+background-color: #272B2E;
+color:white;
+   position: fixed; /* Set the navbar to fixed position */
+   top: 0; /* Position the navbar at the top of the page */
+   width: 100%;
+ }
 .nav ul{
   float: right;
-
 }
 .logo h1{
   padding-left: 4%;
@@ -114,8 +104,6 @@ div .nav ul li {
 }
 
 @media (max-width: 650px) {
-
-
   .nav{
     display: inline-block;
       width:95%;
@@ -134,7 +122,6 @@ div .nav ul li {
   }
   .logo {
     width:100%;
-/* margin-left: 35%; */
   }
   .logo h1{
     text-align: center;
@@ -163,6 +150,9 @@ padding-bottom: 3px;
  color:white;
  font-size:20px;
 
+}
+.footer p{
+  font-size:30px;
 }
 h4{
   font-weight: normal;
@@ -210,17 +200,12 @@ h4{
   }
 
 }
-
-
 /* Marwa */
-
-
 .box{
 width: 99%;
   margin: auto;
     padding:auto;
     padding-left: 10px;
-  /* background-color:#FFEBEE; */
   background-color: #e5ebf2;
 
 }
@@ -228,32 +213,18 @@ width: 99%;
   margin: 7px;
   padding: 5px;
   display: inline-block;
-<<<<<<< HEAD
-  /* border:2px solid #E91E63; */
-=======
-
->>>>>>> 4fa2ca7e58399d777a7640a83ed7c0c08eace873
-  border-radius:10px;
   width: 22%;
   text-align: left;
 }
 
 .one a{
-<<<<<<< HEAD
   color:black;
   text-decoration: none;
 
 }
+
 .one a:hover{
-  color:black;
-=======
-  text-decoration: none;
-  color:black;
-}
-.one a:hover{
->>>>>>> 4fa2ca7e58399d777a7640a83ed7c0c08eace873
   text-decoration:underline;
-
 }
 .one img {
   border-radius: 90%;
@@ -349,12 +320,16 @@ border-radius: 4px;
   border: 1px solid #ccc;
 border-radius: 4px;
 background-color: #004080;
-font-size: 25px;
-<<<<<<< HEAD
-color:white !important;
-=======
+font-size: 15px;
 color:white;
->>>>>>> 4fa2ca7e58399d777a7640a83ed7c0c08eace873
+margin-left: auto;
+margin-right: auto;
+margin-top: 5px;
+padding-top:  10px;
+padding-bottom: 10px;
+}
+.input__Sub:hover{
+    border: 1px solid black;
 
 }
 @media only screen and (max-width: 1000px) {
