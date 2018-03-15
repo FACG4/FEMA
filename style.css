@@ -7,6 +7,14 @@
   font-size: 35px;
   color: black;
   letter-spacing: 1px;
+<<<<<<< HEAD
+  color:
+  border-radius: 2px;
+  /* border: 1px solid #BBDEFB;
+  background-color: #ECEFF1; */
+  background-position: center;
+=======
+>>>>>>> 4fa2ca7e58399d777a7640a83ed7c0c08eace873
    font-family: cursive;
 }
 
@@ -142,7 +150,7 @@ div .nav ul li {
 
 }
 #footer{
-  background-color:#0D47A1;
+  background-color:#004080;
 
 width: auto;
 
@@ -212,24 +220,38 @@ width: 99%;
   margin: auto;
     padding:auto;
     padding-left: 10px;
-  background-color:#FFEBEE;
+  /* background-color:#FFEBEE; */
+  background-color: #e5ebf2;
 
 }
 .one{
   margin: 7px;
   padding: 5px;
   display: inline-block;
+<<<<<<< HEAD
+  /* border:2px solid #E91E63; */
+=======
 
+>>>>>>> 4fa2ca7e58399d777a7640a83ed7c0c08eace873
   border-radius:10px;
   width: 22%;
   text-align: left;
 }
 
 .one a{
+<<<<<<< HEAD
+  color:black;
+  text-decoration: none;
+
+}
+.one a:hover{
+  color:black;
+=======
   text-decoration: none;
   color:black;
 }
 .one a:hover{
+>>>>>>> 4fa2ca7e58399d777a7640a83ed7c0c08eace873
   text-decoration:underline;
 
 }
@@ -326,9 +348,13 @@ border-radius: 4px;
   width: 120px;
   border: 1px solid #ccc;
 border-radius: 4px;
-background-color: #536DFE;
+background-color: #004080;
 font-size: 25px;
+<<<<<<< HEAD
+color:white !important;
+=======
 color:white;
+>>>>>>> 4fa2ca7e58399d777a7640a83ed7c0c08eace873
 
 }
 @media only screen and (max-width: 1000px) {
