@@ -1,0 +1,334 @@
+
+/* Ahmad */
+/* this style to change header in all section */
+.style__h{
+  font-size: 35px;
+  color: black;
+  letter-spacing: 1px;
+}
+
+
+
+/*end */
+.header{
+  width: 100%;
+}
+.header-overlay {
+
+  margin: auto;
+  width: 100%;
+background-image: url("/style/images/well.jpg");
+background-repeat: no-repeat;
+background-position:center;
+height: 500px;}
+
+.header-overlay p,h1,h2{
+    text-align: center;
+    color: white;
+
+}
+.header-overlay h1{
+  font-size: 3em;
+}
+.header-overlay h2{
+  font-size: 2em;
+}
+.header-overlay p{
+  font-size: 1em;
+  line-height: 30px;
+  margin:auto 10px;
+}
+/* .header-overlay p{
+
+} */
+.headline{
+padding-top: 12%;
+}
+
+.logo {
+
+  width:30%;
+  color: black;
+  display: inline-block;
+    vertical-align: middle;
+}
+
+.nav{
+    /* position: fixed; */
+  display: inline-block;
+    width:60%;
+    vertical-align: middle;
+margin-right: 1%;
+
+}
+.navvv{
+overflow: hidden;
+background-color: #272B2E;
+color:white;
+   position: fixed; /* Set the navbar to fixed position */
+   top: 0; /* Position the navbar at the top of the page */
+   width: 100%;
+ }
+.nav ul{
+  float: right;
+}
+.logo h1{
+  padding-left: 4%;
+  color: #000;
+  text-align: left;
+}
+div .nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+div .nav ul li {
+    float: left;
+}
+.nav ul li a{
+    display: block;
+    width: 60px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.logo a{
+
+    color: #fff;
+
+}
+
+@media (max-width: 650px) {
+  .nav{
+    display: inline-block;
+      width:95%;
+  margin: auto;
+  }
+
+  div .nav ul {
+      float: left;
+      padding: 2%;
+  }
+
+  .nav ul li a{
+      width: 60px;
+      padding: 7px 8px;
+
+  }
+  .logo {
+    width:100%;
+  }
+  .logo h1{
+    text-align: center;
+  }
+  .header-overlay h1{
+    font-size: 2em;
+  }
+  .header-overlay h2{
+    font-size: 1.2em;
+  }
+  .header-overlay {
+  height: 300px;}
+
+}
+#footer{
+  background-color:#004080;
+
+width: auto;
+
+}
+
+.footer{
+text-align: center;
+padding-top: 3px;
+padding-bottom: 3px;
+ color:white;
+ font-size:20px;
+
+}
+.footer p{
+  font-size:30px;
+}
+h4{
+  font-weight: normal;
+
+}
+
+
+/* Farah */
+.service-image{
+  width: 90%;
+  height: 150px;
+}
+
+.img-para {
+  margin: 30px;
+}
+
+.images {
+  text-align: center;
+}
+
+#service-header {
+  text-align: center;
+
+}
+.unordered{
+  list-style: none;
+  float:left;
+  width: 24%;
+
+}
+@media only screen and (max-width: 1000px) {
+
+  .unordered{
+    width: 46%;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+
+  .unordered{
+    width: 80%;
+  }
+
+}
+/* Marwa */
+.box{
+width: 99%;
+  margin: auto;
+    padding:auto;
+    padding-left: 10px;
+  background-color: #e5ebf2;
+
+}
+.one{
+  margin: 7px;
+  padding: 5px;
+  display: inline-block;
+  width: 22%;
+  text-align: left;
+}
+
+.one a{
+  color:black;
+  text-decoration: none;
+
+}
+
+.one a:hover{
+  text-decoration:underline;
+}
+.one img {
+  border-radius: 90%;
+  border: 1px solid #0D47A1;
+  width:200px;
+  height:200px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.team{
+  color:black;
+  text-align: center;
+  text-shadow:2px 2px #0D47A1;
+  font-size: 50px;
+}
+.one span{
+  font-size:20px;
+  font-style: italic;
+  font-weight: bold;
+  color:#E91E63;
+  font-family: cursive;
+}
+.ul{
+  list-style: square inside url("sqpurple.gif");
+}
+
+
+
+@media only screen and (max-width: 1000px)  {
+.team h1{
+  margin-top: 9000px;
+}
+.box{
+  width: 100%;
+  margin:auto;
+}
+  .one{
+      width:45%;
+  }
+}
+ul li{
+  font-size: 20px;
+}
+
+
+/* Eman */
+.contact .inputs{
+  width: 50%;
+height: 40px;
+   border: 1px solid #ccc;
+ border-radius: 4px;
+
+}
+
+.contact{
+  width: 100%;
+  text-align: center;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+
+}
+
+
+
+.input--Display{
+  display:block;
+  padding-top: 15px;
+
+}
+.a{
+font-size: 24px;
+padding-bottom: 10px;
+}
+
+.input__text{
+  width: 50%;
+  height: 100px;
+  border: 1px solid #ccc;
+border-radius: 4px;
+}
+.input__Sub{
+  height: 50px;
+  width: 120px;
+  border: 1px solid #ccc;
+border-radius: 4px;
+background-color: #004080;
+font-size: 15px;
+color:white;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5px;
+padding-top:  10px;
+padding-bottom: 10px;
+}
+.input__Sub:hover{
+    border: 1px solid black;
+
+}
+@media only screen and (max-width: 1000px) {
+.contact .inputs,.input__text {
+    width: 100%;
+}
+}
